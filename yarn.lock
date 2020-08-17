@@ -2566,6 +2566,11 @@
   resolved "https://registry.yarnpkg.com/@types/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#1ee30d79544ca84d68d4b3cdb0af4f205663dd2d"
   integrity sha512-OCutwjDZ4aFS6PB1UZ988C4YgwlBHJd6wCeQqaLdmadZ/7e+w79+hbMUFC1QXDNCmdyoRfAFdm0RypzwR+Qpag==
 
+"@types/estree@*":
+  version "0.0.45"
+  resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.45.tgz#e9387572998e5ecdac221950dab3e8c3b16af884"
+  integrity sha512-jnqIUKDUqJbDIUxm0Uj7bnlMnRm1T/eZ9N+AVMqhPgzrba2GhGG5o/jCTwmdPK709nEZsGoMzXEDUjcXHa3W0g==
+
 "@types/express-jwt@0.0.42":
   version "0.0.42"
   resolved "https://registry.yarnpkg.com/@types/express-jwt/-/express-jwt-0.0.42.tgz#4f04e1fadf9d18725950dc041808a4a4adf7f5ae"
@@ -3186,6 +3191,11 @@ acorn@^6.4.1:
   version "6.4.1"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.4.1.tgz#531e58ba3f51b9dacb9a6646ca4debf5b14ca474"
   integrity sha512-ZVA9k326Nwrj3Cj9jlh3wGFutC2ZornPNARZwsNYqQYgN0EsV2d53w5RN/co65Ohn4sUAUtb1rSUAOD6XN9idA==
+
+acorn@^7.1.0:
+  version "7.4.0"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.4.0.tgz#e1ad486e6c54501634c6c397c5c121daa383607c"
+  integrity sha512-+G7P8jJmCHr+S+cLfQxygbWhXy+8YTVGzAkpEbcLo2mLoL7tij/VG41QSHACSf5QgYRhMZYHuNc6drJaO0Da+w==
 
 acorn@^7.1.1:
   version "7.3.1"
@@ -4415,6 +4425,11 @@ binary-extensions@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-2.1.0.tgz#30fa40c9e7fe07dbc895678cd287024dea241dd9"
   integrity sha512-1Yj8h9Q+QDF5FzhMs/c9+6UntbD5MkRfRwac8DoEm9ZfUBZ7tZ55YcGVAzEe4bXsdQHEk+s9S5wsOKVdZrw0tQ==
+
+binary-search@^1.3.5, binary-search@^1.3.6:
+  version "1.3.6"
+  resolved "https://registry.yarnpkg.com/binary-search/-/binary-search-1.3.6.tgz#e32426016a0c5092f0f3598836a1c7da3560565c"
+  integrity sha512-nbE1WxOTTrUWIfsfZ4aHGYu5DOuNkbxGokjV6Z2kxfJK3uaAb8zNK1muzOeipoLHZjInT4Br88BHpzevc681xA==
 
 bindings@^1.5.0:
   version "1.5.0"
@@ -7818,6 +7833,11 @@ headers-utils@^1.2.0:
   resolved "https://registry.yarnpkg.com/headers-utils/-/headers-utils-1.2.0.tgz#5e10d1bc9d2bccf789547afca5b991a3167241e8"
   integrity sha512-4/BMXcWrJErw7JpM87gF8MNEXcIMLzepYZjNRv/P9ctgupl2Ywa3u1PgHtNhSRq84bHH9Ndlkdy7bSi+bZ9I9A==
 
+heap@^0.2.6:
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/heap/-/heap-0.2.6.tgz#087e1f10b046932fc8594dd9e6d378afc9d1e5ac"
+  integrity sha1-CH4fELBGky/IWU3Z5tN4r8nR5aw=
+
 highlight.js@~9.13.0:
   version "9.13.1"
   resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.13.1.tgz#054586d53a6863311168488a0f58d6c505ce641e"
@@ -8307,6 +8327,18 @@ is-alphanumerical@^1.0.0:
   dependencies:
     is-alphabetical "^1.0.0"
     is-decimal "^1.0.0"
+
+is-any-array@0.0.3, is-any-array@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/is-any-array/-/is-any-array-0.0.3.tgz#cbdd8c7189d47b53b050969245f4ef7e55550b9b"
+  integrity sha512-Lr5SRykZv6uuYMZURz7+YpigT1ziTBHOTgFJ1zK7gL+9Wbet5Ha1ws6S84Jo/lH4zep02b95sk6o4+MTk97mPQ==
+
+is-any-array@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/is-any-array/-/is-any-array-0.1.0.tgz#e5a27965e3371610c10c66bca3be37ee177bdf8e"
+  integrity sha512-6Kkl1RnvfdkmXM6ZlP+kELGBMA74Nq5pSOm9gIKDaPRe9KQlIJzonrOgq0Jzn/iElB6F2/olpLgWYeVySzrSRg==
+  dependencies:
+    rollup "^1.31.1"
 
 is-arguments@^1.0.4:
   version "1.0.4"
@@ -9899,6 +9931,11 @@ media-typer@0.3.0:
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
   integrity sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g=
 
+median-quickselect@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/median-quickselect/-/median-quickselect-1.0.1.tgz#de3408035a5b2f0438a39b99893faf3e7d6177f8"
+  integrity sha1-3jQIA1pbLwQ4o5uZiT+vPn1hd/g=
+
 memoizerific@^1.11.3:
   version "1.11.3"
   resolved "https://registry.yarnpkg.com/memoizerific/-/memoizerific-1.11.3.tgz#7c87a4646444c32d75438570905f2dbd1b1a805a"
@@ -10165,6 +10202,518 @@ mkdirp@^1.0.3, mkdirp@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
   integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
+
+ml-array-max@^1.1.1, ml-array-max@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/ml-array-max/-/ml-array-max-1.1.2.tgz#ac14a4954ebdb9f401774cc1572fce439e12f94d"
+  integrity sha512-it2hYUSuYEwIRO6hjTWfe6gbGutF4Tuct7jxt3LiLE4wKFs6ku5FLNIRKtOL2jyH+Jdwt1ddbqKMX8inBM8RxA==
+  dependencies:
+    is-any-array "^0.0.3"
+
+ml-array-mean@^1.1.1, ml-array-mean@^1.1.2, ml-array-mean@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/ml-array-mean/-/ml-array-mean-1.1.3.tgz#6d6f135884058190d69f495e88173ce18e57820a"
+  integrity sha512-2VPC8qqBpL1Ked971gJdoydnxO07ksroZfdySQoxcPFCDr0zRfqgIVg7A4IBcrvkxbJ2F/+tF9p2dMg7oJgNww==
+  dependencies:
+    ml-array-sum "^1.1.3"
+
+ml-array-median@^1.1.1, ml-array-median@^1.1.2:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/ml-array-median/-/ml-array-median-1.1.3.tgz#d226fdd7245ee63e6edf8153f4a03d5269d35984"
+  integrity sha512-UvIDs43BDCJTAQSmY4xRIJmmaLRI0xISAD1YRpniUW0kW1v4us2QwUVNnp4K3lpvYNXvqlUMEzLhT5nacGKdVA==
+  dependencies:
+    is-any-array "^0.0.3"
+    median-quickselect "^1.0.1"
+
+ml-array-min@^1.1.1, ml-array-min@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/ml-array-min/-/ml-array-min-1.1.2.tgz#a084370fe78998a4131d566d066ee01bccce253a"
+  integrity sha512-92QzvsyK7TxGz618pno6bu0LXYcRKssbimP85qRllk2xX5Z4gnVxlOmrMjSerUut9zzbt1eQB4byXNCwT0vgwA==
+  dependencies:
+    is-any-array "^0.0.3"
+
+ml-array-mode@^1.1.1:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/ml-array-mode/-/ml-array-mode-1.1.2.tgz#6c4956f9434144255f0882007d7c8b466a8c2615"
+  integrity sha512-S0m/XxtohnpUGDNGwVITwP/UnwM/B25d7jtZgtnCAYNoLFpT2GLSCbCnX/fikVABybP78jE2LJkxOm2l6vaM1w==
+  dependencies:
+    is-any-array "^0.0.3"
+
+ml-array-normed@^1.0.2:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/ml-array-normed/-/ml-array-normed-1.3.1.tgz#fd9260756cc9be05632932dfd7bcaa217818491f"
+  integrity sha512-+MBKqj+tdy/vjVBLwB0oMCIfke9rnQYdE9+R1+gvQDLIEbOmj0EFpVPaFdHPtSL46ZQjsugfTrc17/kPCCeAhA==
+  dependencies:
+    is-any-array "^0.1.0"
+    ml-array-max "^1.1.2"
+    ml-array-sum "^1.1.3"
+
+ml-array-rescale@^1.2.1, ml-array-rescale@^1.3.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/ml-array-rescale/-/ml-array-rescale-1.3.1.tgz#7e55871af8741d212e2b47b8acd55571936c822b"
+  integrity sha512-PMj/f3MXBf5j2is8E4ugfNx6txi5y6qO4iVizfGjUVcpBl9RpXhznsoOz5iLtVtW1uDiWl+ToHaW4IGwoG+rmg==
+  dependencies:
+    is-any-array "^0.0.3"
+    ml-array-max "^1.1.2"
+    ml-array-min "^1.1.2"
+
+ml-array-sequential-fill@^1.1.1:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/ml-array-sequential-fill/-/ml-array-sequential-fill-1.1.2.tgz#97eb77444bb9fc5542d52d2899e322459ad302ed"
+  integrity sha512-dZSNnWTQW/JJhlMZhUl0usv25HafZhlgxVZbCGPSaqnxiKqS/E2hCaCW446d/Fpfl0FowlI4FoLT/h+xSQmCsw==
+  dependencies:
+    is-any-array "^0.0.3"
+
+ml-array-standard-deviation@^1.1.1:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/ml-array-standard-deviation/-/ml-array-standard-deviation-1.1.4.tgz#dfc535bf93da57c6af1f768893aadf5715f7a91e"
+  integrity sha512-6HPRMG2F0QRuQi9CmMinjZkHY32X1g/i6tQWLZ1DcOZJuTOL07uVS1rYHgSOB2PGveZIdjmDABoPaRyhMh9QvQ==
+  dependencies:
+    is-any-array "^0.0.3"
+    ml-array-variance "^1.1.4"
+
+ml-array-sum@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/ml-array-sum/-/ml-array-sum-1.1.3.tgz#e33f59e2bf84af0f2e5332fe7cbfa04b5bc1dace"
+  integrity sha512-7sKzMh9BCVveBdGAXdL80xOdGimAb+Atj9oHbizbqnnPaRvdXyyw/yVQSaTXBFFbk52y0vC5iPL8NORKB+axHA==
+  dependencies:
+    is-any-array "^0.0.3"
+
+ml-array-variance@^1.1.1, ml-array-variance@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/ml-array-variance/-/ml-array-variance-1.1.4.tgz#a18995bc0ffb8a4bb8f91169198fec8258149dd0"
+  integrity sha512-SYpZsVW2yKeVx44vQX9iIG23PFnEiQGiuy8dYjPTn4cYRtW7eJIT8YqqLsoWmBk2yZUhpxmcPbV11WGDLT8VBg==
+  dependencies:
+    is-any-array "^0.0.3"
+    ml-array-mean "^1.1.3"
+
+ml-array-xy-centroids-merge@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/ml-array-xy-centroids-merge/-/ml-array-xy-centroids-merge-1.0.1.tgz#e6f0dcbe1cf1bd29c080cf7adbbc8a70e675e775"
+  integrity sha512-DX4Jc8d0d6V4sXyFF7cZY4EjeM2x/turuE0LrvSYmNT+YZf7dRBvt7IudY9cPlH+YmEiYsBqw+BN0xlAPw9xOw==
+
+ml-array-xy-equally-spaced@^1.0.0:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/ml-array-xy-equally-spaced/-/ml-array-xy-equally-spaced-1.1.1.tgz#3c8fcebbd2330cb7331b5ac7b5925d38a0298b6c"
+  integrity sha512-VbuJuWlxS04k58B6T4M5296D4cNvXRp7RItEUbpvclGN116BfJdNFhIRzoaeNwuOH3eylH1T98DuUXTpH/eA1g==
+  dependencies:
+    binary-search "^1.3.5"
+    ml-array-sequential-fill "^1.1.1"
+    ml-zones "^0.1.0"
+    num-sort "^2.0.0"
+
+ml-array-xy-filter-x@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/ml-array-xy-filter-x/-/ml-array-xy-filter-x-1.0.0.tgz#3eccf5dfd3613036d4cbceb028669114f98b270c"
+  integrity sha512-npyY4N7oCxb6EImgOKQs8vg7KJTqFqsK4e7F7uNeZAikP7+176nQwGFYmXJeOsZWJpV1HyEbRTlTk32+Qbmi3w==
+
+ml-array-xy-max-merge@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/ml-array-xy-max-merge/-/ml-array-xy-max-merge-1.0.1.tgz#bc4d571d67cec81be4df387f2433f135645591f5"
+  integrity sha512-aJLlL3TGdTOBS3nS4PTSTCmwXBL2pUZ0bpOgx72LgAnpqmuI0IcapcCl8pv93Q/J/pAgv0XPqUQVM3Voz3Q8Qg==
+
+ml-array-xy-max-y@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/ml-array-xy-max-y/-/ml-array-xy-max-y-1.0.1.tgz#39aeb007dec192dd329f6a571792a277da3931c6"
+  integrity sha512-JnfuGX0k63uBmHKW8c8vcuowo+daZcHfvBAqH0Y2K9TU4FpvufYEGcA4Gp5W+rADPsmucN5otEaBYNDK/DZvtA==
+  dependencies:
+    binary-search "^1.3.5"
+    num-sort "^2.0.0"
+
+ml-array-xy-sort-x@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/ml-array-xy-sort-x/-/ml-array-xy-sort-x-1.0.1.tgz#39ab57b20ce6c8d70c834dedd87dfb32667c118c"
+  integrity sha512-wAQI4KWDq7PdG7u/J9b0iS+1CNDzC0WEy6Iss8MDwTnYJLFGnsGlvjpXDRpZ4AFdZKfpczHfWi1RqrO1FHB9KA==
+
+ml-array-xy-weighted-merge@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/ml-array-xy-weighted-merge/-/ml-array-xy-weighted-merge-1.0.1.tgz#daf9fc7dac390cd322c545f958f05a7bb5446993"
+  integrity sha512-FCT0JiHNo0Y9jVEkzcBKznXsDigVq+NJxKq64T2CvWr/g+IwUXbsjOLGI0/1noW/UqYr4wqW8QU8/un85A2/Xg==
+
+ml-arrayxy-closestx@^2.0.0:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/ml-arrayxy-closestx/-/ml-arrayxy-closestx-2.0.1.tgz#71260fa90fc54d8cf7e0ff0c07f9d73e156a8716"
+  integrity sha512-2KzY6k8ftocR/745Mky1C8Ur5Fb08k5KFLK3/aQfwla3ylsfZGYGiEbVKpzJARO3dYLuGe1HNUvbFE32GivIBw==
+  dependencies:
+    binary-search "^1.3.5"
+    num-sort "^2.0.0"
+
+ml-arrayxy-uniquex@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/ml-arrayxy-uniquex/-/ml-arrayxy-uniquex-1.0.1.tgz#ade753eec0deca7282625d97fa91c6a8f9a4f4b6"
+  integrity sha512-2OtrRpoTGInAhsdx9Kb1AMFdJ+rnKrCbEuar5K1zBM5OC8gughRjvPYp1vHtN07vy7rbt/kYclhZ0UIpbGM+UA==
+
+ml-bit-array@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/ml-bit-array/-/ml-bit-array-1.0.0.tgz#e754f7f36c7cdad010b945f696ede14a07dcfec1"
+  integrity sha1-51T382x82tAQuUX2lu3hSgfc/sE=
+
+ml-cart@^2.0.0, ml-cart@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/ml-cart/-/ml-cart-2.0.1.tgz#6d9a796828ca77cdea2299a8aa650d50a7942160"
+  integrity sha512-/aHTKMHaPVVcNnIblv3pXkisqYjcSidSlwkpTDrPAeF4F2F1SytAfSvPYHIthErQNkNqKWjYo66+7YzKcT789Q==
+  dependencies:
+    ml-array-mean "^1.1.2"
+    ml-matrix "^6.4.1"
+
+ml-combinations@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/ml-combinations/-/ml-combinations-1.1.0.tgz#94cfb872208f152f305cc397b1b142ae2a3fbc2b"
+  integrity sha512-+qyi2+wuBAOx9/zQJrR0RTElM36hQdKhckWUQvrZiNFi+AWJ7BYmlkUf4PUI2XJ+gF0s55FQRSCOV9q3bvP/GA==
+
+ml-confusion-matrix@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/ml-confusion-matrix/-/ml-confusion-matrix-0.3.0.tgz#5cd7795015cd0ea7adac04f02dfb2a682109c9ae"
+  integrity sha512-RtXb5Ji6rIW092a2d6NbkZiupjr5WOvlNvkyAfRwWTLYcUHCc9lHfzdWcO4SKFAO7Rrx0uK9jVMUtxgcT9E5RA==
+
+ml-confusion-matrix@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/ml-confusion-matrix/-/ml-confusion-matrix-0.4.0.tgz#548f034df04cdd48125908d577ee4522b57929e5"
+  integrity sha512-DizJUm28EOg4Jal5zJt/apgbZ2HHPqOW7IW/NPF/fvVkp5P8olDDQHMpM24f6wcZNbuX3s0yoaHiy2lOY52Q2A==
+
+ml-cross-validation@^1.2.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/ml-cross-validation/-/ml-cross-validation-1.3.0.tgz#c983aebb7b11937be64648566ccfa520abfb8305"
+  integrity sha512-5bVDtJqrHFlsiG6Pu18XWmvayaf1SF+cWGnmqU4gAsT4kHhtSZgjZ3+A5BSbQDjP9ULPEzADCyG5C/dd0chFYQ==
+  dependencies:
+    ml-combinations "^1.1.0"
+    ml-confusion-matrix "^0.4.0"
+
+ml-distance-euclidean@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/ml-distance-euclidean/-/ml-distance-euclidean-2.0.0.tgz#3a668d236649d1b8fec96380b9435c6f42c9a817"
+  integrity sha512-yC9/2o8QF0A3m/0IXqCTXCzz2pNEzvmcE/9HFKOZGnTjatvBbsn4lWYJkxENkA4Ug2fnYl7PXQxnPi21sgMy/Q==
+
+ml-distance-matrix@^2.0.0:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/ml-distance-matrix/-/ml-distance-matrix-2.0.1.tgz#851b2da690171494ce5b25773d5ee3fa53376fc4"
+  integrity sha512-6wt3bvK8WzAjyuBt9+wnyGanphrAZyqJGwiEEfuknfu8IQBtHYWpyLhjtQ8R7rjiPyXlF9eP7GcI5L7OA1NLEQ==
+
+ml-distance@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/ml-distance/-/ml-distance-3.0.0.tgz#0e49c525480b21c28a3fbcdc4577f063341dfecf"
+  integrity sha512-sRDuFVgZp2jTRkI/Y3urDXNjFG+rkrZ70ic8gt8KxOp+eNHDaDJolM5AxPX9G2FQMuIk3AUBdlDU1yhhXcf4+A==
+  dependencies:
+    ml-array-mean "^1.1.1"
+    ml-distance-euclidean "^2.0.0"
+    ml-tree-similarity "^1.0.0"
+
+ml-fcnnls@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/ml-fcnnls/-/ml-fcnnls-1.1.0.tgz#59f1f96f3ef719713da88ec58d5708d5f509c181"
+  integrity sha512-UB58AH+pORfvbN8od6zqN0UJvOy2/eGaj2XMropEOnfCtf02Jx5UkzRyuIO4jTIT/51JF6YTpDogfmCV0sXVAg==
+  dependencies:
+    ml-matrix "^6.4.0"
+
+ml-fnn@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/ml-fnn/-/ml-fnn-5.0.0.tgz#69a7ac5daebdb6d3b8cf9514491dd538fcb70d02"
+  integrity sha512-P0gaEzyMm93uQPDTX4KTQgBmVxa+pgMO0ECManBHdZja+jnoaT8DFEmSCwvBXGskWI/BcZEwqEEQ6UYwMWWa2w==
+  dependencies:
+    ml-matrix "^6.1.2"
+
+ml-hash-table@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/ml-hash-table/-/ml-hash-table-1.0.0.tgz#9fedf006693ca6f958d79d30e3f33f1af7eaec01"
+  integrity sha512-KV2uRIUbox0xuJ5Gkmr3udX0eNqr+c2HiSqz+sqAtQOnSm46zBmzDJvZX9t4hhcqqyEmGPvxFzx5SnwCfGhXNw==
+  dependencies:
+    binary-search "^1.3.5"
+    num-sort "^2.0.0"
+
+ml-hclust@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/ml-hclust/-/ml-hclust-3.0.0.tgz#2eedbe107524ab85f5efe09ea5ef0ee224e8a9fb"
+  integrity sha512-iv4wjDyrYSlCazNLfW7jqrFmFRPhtd90eW/cfUQ/HKq6S8bh1V6XbXh90mgyX3c7vkUt7NOKtJwM7ialw8PdqQ==
+  dependencies:
+    heap "^0.2.6"
+    ml-distance-euclidean "^2.0.0"
+    ml-distance-matrix "^2.0.0"
+    ml-matrix "^6.1.2"
+
+ml-kernel-gaussian@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/ml-kernel-gaussian/-/ml-kernel-gaussian-2.0.2.tgz#2d1a1130d3205e551e7d1dbe642b8f150076e6c0"
+  integrity sha512-5MBrH2g9MBO53I6mcyXvMhyOLsmO2w21+26A1ZV/vYoxqpsov2PWkT8bhdFCEe0kgDupmAb6u81iOID/rhnarA==
+  dependencies:
+    ml-distance-euclidean "^2.0.0"
+
+ml-kernel-polynomial@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/ml-kernel-polynomial/-/ml-kernel-polynomial-2.0.1.tgz#ae99e26892f5763185e2334bad862adc5733c599"
+  integrity sha512-aGDNRPHDiKeJmBxB0L9wTxKNLfp5JytbdRIo5K+FTcmFjkWDe3YZPo6R6wBB5mxaJ5eqTRawzeV4RoIWHbakyQ==
+
+ml-kernel-sigmoid@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/ml-kernel-sigmoid/-/ml-kernel-sigmoid-1.0.1.tgz#3eb4419a97d68d299dd6faffa8dca0fb91dd3300"
+  integrity sha512-mSbYOSbNQ7GsUAGrHuUHNsLgM3bZGpXkotw/FBdKZD9YMXfVOgQb1LvvvVeSlOR/ZdmX23qqaV0RnKSYWBF8og==
+
+ml-kernel@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/ml-kernel/-/ml-kernel-3.0.0.tgz#7d32f6a663b89143eb3439968aa36a396014435e"
+  integrity sha512-R+ZR0Kl5xJ7vnxtlDqjZ26xVk7mAw7ctK4NlzRHviBFXxp7keC9+hWirMOdzi2DOQA0t6CaRwjElZ6SdirOmow==
+  dependencies:
+    ml-distance-euclidean "^2.0.0"
+    ml-kernel-gaussian "^2.0.2"
+    ml-kernel-polynomial "^2.0.1"
+    ml-kernel-sigmoid "^1.0.1"
+    ml-matrix "^6.1.2"
+
+ml-kmeans@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/ml-kmeans/-/ml-kmeans-5.0.0.tgz#ba89702cf6cd66341cd9f4c15e530d820988f136"
+  integrity sha512-QsWg10bVLRvd58hFHBu3wKjVH14+5/q+xJ29YwLN04mIr3mYmT8CuZDLAi59PLLZQQL54na8bBPSqjPEHJ1aBg==
+  dependencies:
+    ml-distance-euclidean "^2.0.0"
+    ml-matrix "^6.1.2"
+    ml-nearest-vector "^2.0.1"
+    ml-random "^0.5.0"
+
+ml-knn@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/ml-knn/-/ml-knn-3.0.0.tgz#98eb350919f15d4a719312cfdcf7b62693201ad5"
+  integrity sha512-w7Jig4vW09OYMurlIRRJj8yL2O/835QJpxup+yW7QVYXSjixmanPtPQL+weiTYbaB/wWX8JilB+Wllk4mxvP5w==
+  dependencies:
+    ml-distance-euclidean "^2.0.0"
+
+ml-levenberg-marquardt@^2.0.0:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/ml-levenberg-marquardt/-/ml-levenberg-marquardt-2.1.1.tgz#6a26751657adb340ed5ae4daadf5bfd2f757bdd4"
+  integrity sha512-2+HwUqew4qFFFYujYlQtmFUrxCB4iJAPqnUYro3P831wj70eJZcANwcRaIMGUVaH9NDKzfYuA4N5u67KExmaRA==
+  dependencies:
+    is-any-array "^0.1.0"
+    ml-matrix "^6.4.1"
+
+ml-matrix@^6.1.2, ml-matrix@^6.2.0, ml-matrix@^6.4.0, ml-matrix@^6.4.1:
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/ml-matrix/-/ml-matrix-6.5.1.tgz#b61305024f548ce198faa001974fd961cd162a98"
+  integrity sha512-KJ5DVN5cH7+HmFhjVhYh4FI1m1v4Xmw1Xi+huTlP0tDAKKuC5ZY4IlElCaT0LalsERE9nDQQ3YwT/o9Gss/B5w==
+  dependencies:
+    ml-array-rescale "^1.3.1"
+
+ml-naivebayes@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/ml-naivebayes/-/ml-naivebayes-4.0.0.tgz#b4eb8c426f336a13a28cc79f15ce3ef789a7cc89"
+  integrity sha512-JInn0MFvu9xJ8mCB8sef/UYs6IS9wH5DvPj0Jmft3vJj7vdBtXR4SH+EbcoJLLU0IO1NcvIaAHWLwD/hRda2+Q==
+  dependencies:
+    ml-matrix "^6.1.2"
+
+ml-nearest-vector@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/ml-nearest-vector/-/ml-nearest-vector-2.0.1.tgz#fa9dae2e39e9abe2a2a53a3404f0fe077803d240"
+  integrity sha512-gMPwNm3eed59ewJYiCK/+wElWBfNoD6JizH965ePiQgCo0pvQL63w4YdZhLs5eUV0iWcq6brVMUBL6iMySHnqg==
+  dependencies:
+    ml-distance-euclidean "^2.0.0"
+
+ml-pad-array@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/ml-pad-array/-/ml-pad-array-2.0.0.tgz#bd584dac638b155128781b17fa6c7532dcfc3671"
+  integrity sha512-X/gxCzAsv2fvseFYaWWSndDp7tcSPvBGCcH80YgR+sxLq39ZeMEUjSUPcW2dvRvJ30c1pdXNBcUvKWrnuNmLrg==
+
+ml-pca@^4.0.0:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/ml-pca/-/ml-pca-4.0.1.tgz#427d401097dccc28de0ed2f1cb96510ab7cebcbd"
+  integrity sha512-Pf+XrVtXehEbCmSw2QLa3BvZOICBrke7szizlcF6gh7up5b6+Muu/bEEy3NXvzMHMun8QFokHeV9KLctc5++dQ==
+  dependencies:
+    ml-matrix "^6.2.0"
+
+ml-performance@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/ml-performance/-/ml-performance-0.2.0.tgz#4736484a863ce7ca53b61b80f199a26640b16a66"
+  integrity sha1-RzZISoY858pTthuA8ZmiZkCxamY=
+
+ml-pls@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/ml-pls/-/ml-pls-2.0.0.tgz#e13fd0fcf4be36c2a76eca44dd4e4eacb5b4010a"
+  integrity sha512-hoG3nopyaSanHNcvK8NbTcmOIIph6UsVg8sbpvAXQ4i9B11ZScRQK9Vpr0OrVW0YeDL8xzCtugmb7BLgMGKN3A==
+  dependencies:
+    ml-matrix "^6.1.2"
+
+ml-random-forest@^2.0.0:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/ml-random-forest/-/ml-random-forest-2.0.1.tgz#41dcd300a320fcf701dc65f1fd16170fac097d9b"
+  integrity sha512-/0PY+XUo23Mov5+6YKuMbuMBY4gkIGntxHkGi/ugQ2JtUJHciO5BjJiAYibfmNT5x0Ic31MOkzny4QbJt91Xjg==
+  dependencies:
+    ml-array-mean "^1.1.2"
+    ml-array-median "^1.1.2"
+    ml-cart "^2.0.1"
+    ml-matrix "^6.4.1"
+    random-js "^2.1.0"
+
+ml-random@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/ml-random/-/ml-random-0.5.0.tgz#d6f7c0e8fbcebee05a14ece9a411769508c5eb3b"
+  integrity sha512-zLJBmNb34LOz+vN6BD8l3aYm/VWYWbmAunrLMPs4dHf4gTl8BWlhil72j56HubPg86zrXioIs4qoHq7Topy6tw==
+  dependencies:
+    ml-xsadd "^2.0.0"
+
+ml-regression-base@^2.0.1, ml-regression-base@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/ml-regression-base/-/ml-regression-base-2.1.1.tgz#738473d9b229bc6ddea97d03db083694a9c524a4"
+  integrity sha512-Jq2bDfinbPmc0i3+1UN7kK/nneXkAHhBRA9zjv1Kbdxwlskr5TbRPmtqigDnFFQvMXeWQ17oJH9mmnLSe6wUfg==
+  dependencies:
+    is-any-array "0.0.3"
+
+ml-regression-exponential@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/ml-regression-exponential/-/ml-regression-exponential-2.0.0.tgz#7a0ef80d40d67cb41ce4335b41b6d43b2b02438a"
+  integrity sha512-cDcYIfET57TpAe+s1Vg59tV8ddUMzCgRROxfl+ok/OyxehqGudcuqdEyS0eWbxhGdgN3dh5DoYiSfxKS1tVkrA==
+  dependencies:
+    ml-regression-base "^2.0.1"
+    ml-regression-simple-linear "^2.0.2"
+
+ml-regression-multivariate-linear@^2.0.2:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/ml-regression-multivariate-linear/-/ml-regression-multivariate-linear-2.0.3.tgz#e1d660ccea46c812a2749af494e2a8d4ac1d68cf"
+  integrity sha512-G8tBqf8bEhowiVP9rUeYjoc6mCSsA7yxo3fCr8hjaVVmLBAZEXoyeHj5zQZJh/eAp6423kSaabP3emWMwRcnbw==
+  dependencies:
+    ml-matrix "^6.4.1"
+
+ml-regression-polynomial@^2.0.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/ml-regression-polynomial/-/ml-regression-polynomial-2.1.0.tgz#cedee0b7f80b46c2d53ce54971a12eb7b3db40a9"
+  integrity sha512-iQnOYQ/gRRbT3264l3yaMfbC2AvWvL1SE0BeeRFe+wUqwP2SCDfbw0q6Md012GnY2pf8VpdOEVJ+PFGK0vgBIg==
+  dependencies:
+    ml-matrix "^6.4.1"
+    ml-regression-base "^2.1.1"
+
+ml-regression-power@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/ml-regression-power/-/ml-regression-power-2.0.0.tgz#3fc5c7a294d4a7fe1172fc638cc4d891b04ea170"
+  integrity sha512-u8O9Fy45+OeYm/4ZBcNDn5w3w+MHc6kZz/AWSJIwmJcyjz6PRkTZnNfgGYdVKwKKDlAOS7G/AFvMKSTWRNO4RQ==
+  dependencies:
+    ml-regression-base "^2.0.1"
+    ml-regression-simple-linear "^2.0.2"
+
+ml-regression-robust-polynomial@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/ml-regression-robust-polynomial/-/ml-regression-robust-polynomial-2.0.0.tgz#da3c637c59c2e8aa118f337a43e8e9192c2a7d84"
+  integrity sha512-66Cng1JH0aG9O+hYnJYIst9cIiwFtW24DccUjW+MsGrkwkW41G3m+ayN+mDRQudmQBXf4rQIadwk3RM1eIaXbA==
+  dependencies:
+    ml-matrix "^6.1.2"
+    ml-regression-base "^2.0.1"
+
+ml-regression-simple-linear@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/ml-regression-simple-linear/-/ml-regression-simple-linear-2.0.2.tgz#d3be77a950103d6c607e28ac1109a0bef85bd72f"
+  integrity sha512-FTsCPNXLGEtdXuR4GRfzWXyRkmHohKdNdLLX07Q3aeJAmTu1hlq2JW7EexumNqSFweoWYq1GAz2TPaRntCfCig==
+  dependencies:
+    ml-regression-base "^2.0.1"
+
+ml-regression-theil-sen@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/ml-regression-theil-sen/-/ml-regression-theil-sen-2.0.0.tgz#e3b4c72f3ca630d475284ae59f0bb7f0a27899a3"
+  integrity sha512-RO//tYzo69XbWDO5LIPdGp8ef1MSTPPJY0bXNlmOLMSay7YR9FQqtNgqn29T9DSYTa863VAafRlCeXwDQNXkBw==
+  dependencies:
+    ml-array-median "^1.1.1"
+    ml-regression-base "^2.0.1"
+
+ml-regression@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/ml-regression/-/ml-regression-5.0.0.tgz#7e76ee584ff226d8ad867bf6e6b08b2fa14cf9f8"
+  integrity sha512-mBn0LpfEWV3Dk0dj+8PRNUqIHvO87rUY0PmCUTYv3MKfECx7TtlKyeacJeOBLZ4YAVixX8U5hn4HwRL6TpTYaw==
+  dependencies:
+    ml-kernel "^3.0.0"
+    ml-matrix "^6.1.2"
+    ml-regression-base "^2.0.1"
+    ml-regression-exponential "^2.0.0"
+    ml-regression-multivariate-linear "^2.0.2"
+    ml-regression-polynomial "^2.0.0"
+    ml-regression-power "^2.0.0"
+    ml-regression-robust-polynomial "^2.0.0"
+    ml-regression-simple-linear "^2.0.2"
+    ml-regression-theil-sen "^2.0.0"
+
+ml-savitzky-golay@^4.0.0:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/ml-savitzky-golay/-/ml-savitzky-golay-4.1.1.tgz#c3ac8700d93cf17439a14f3e213967e59c006419"
+  integrity sha512-UPi2MCfikZhsLRylHC1fQrShGOb+gDouY+eON/kSDT4KLwRsRDEtWMMvatR/lDtuogTcq21Y1kFKqYFgnmn0Ag==
+  dependencies:
+    ml-matrix "^6.4.1"
+    ml-pad-array "^2.0.0"
+
+ml-som@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/ml-som/-/ml-som-0.0.6.tgz#1602051c4b8a3ca6b91fd6c18517aa3b0c566815"
+  integrity sha1-FgIFHEuKPKa5H9bBhReqOwxWaBU=
+
+ml-sparse-matrix@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/ml-sparse-matrix/-/ml-sparse-matrix-2.0.0.tgz#b000103de9b523e8de146d5848543cee3283d82a"
+  integrity sha512-nAS330VaTUnwB6M4K50vHNwr+aG4BFL9eF/3OP/mHVAnjMf6uDXZcimZ0fNmS6cW39bYveAhbm7NyARfFLElfw==
+  dependencies:
+    ml-hash-table "^1.0.0"
+
+ml-tree-similarity@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/ml-tree-similarity/-/ml-tree-similarity-1.0.0.tgz#24705a107e32829e24d945e87219e892159c53f0"
+  integrity sha512-XJUyYqjSuUQkNQHMscr6tcjldsOoAekxADTplt40QKfwW6nd++1wHWV9AArl0Zvw/TIHgNaZZNvr8QGvE8wLRg==
+  dependencies:
+    binary-search "^1.3.5"
+    num-sort "^2.0.0"
+
+ml-xsadd@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/ml-xsadd/-/ml-xsadd-2.0.0.tgz#e289308aaf1d68627d7baf198e7571192899f588"
+  integrity sha512-VoAYUqmPRmzKbbqRejjqceGFp3VF81Qe8XXFGU0UXLxB7Mf4GGvyGq5Qn3k4AiQgDEV6WzobqlPOd+j0+m6IrA==
+
+ml-zones@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/ml-zones/-/ml-zones-0.1.0.tgz#ce781463662798c48cf1dd8c21fbd30cb7991859"
+  integrity sha512-ftxNwHofZ8t/BPLT3UulIOkiwkmZGBr+Szsb0I1Ymi7t6bRwx0LdPCcbvEk6YkaWYnjgnFaeTpZooYKmI3RutQ==
+
+ml@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/ml/-/ml-5.0.0.tgz#0e7485c042b1e43c57c6733defd3de7eb5401a01"
+  integrity sha512-cspdA2j0aH9rljJ3h9znaoOGcX2XnlnXvNCIqqy3RLeD7rGHOW6cc+2m15JxgPS1FVhiZnCRb41o2DUI2ih8sw==
+  dependencies:
+    binary-search "^1.3.6"
+    ml-array-max "^1.1.1"
+    ml-array-mean "^1.1.1"
+    ml-array-median "^1.1.1"
+    ml-array-min "^1.1.1"
+    ml-array-mode "^1.1.1"
+    ml-array-normed "^1.0.2"
+    ml-array-rescale "^1.2.1"
+    ml-array-sequential-fill "^1.1.1"
+    ml-array-standard-deviation "^1.1.1"
+    ml-array-variance "^1.1.1"
+    ml-array-xy-centroids-merge "^1.0.0"
+    ml-array-xy-equally-spaced "^1.0.0"
+    ml-array-xy-filter-x "1.0.0"
+    ml-array-xy-max-merge "^1.0.0"
+    ml-array-xy-max-y "^1.0.0"
+    ml-array-xy-sort-x "^1.0.0"
+    ml-array-xy-weighted-merge "^1.0.0"
+    ml-arrayxy-closestx "^2.0.0"
+    ml-arrayxy-uniquex "^1.0.0"
+    ml-bit-array "^1.0.0"
+    ml-cart "^2.0.0"
+    ml-confusion-matrix "^0.3.0"
+    ml-cross-validation "^1.2.0"
+    ml-distance "^3.0.0"
+    ml-distance-matrix "^2.0.0"
+    ml-fcnnls "^1.1.0"
+    ml-fnn "^5.0.0"
+    ml-hash-table "^1.0.0"
+    ml-hclust "^3.0.0"
+    ml-kernel "^3.0.0"
+    ml-kmeans "^5.0.0"
+    ml-knn "^3.0.0"
+    ml-levenberg-marquardt "^2.0.0"
+    ml-matrix "^6.4.0"
+    ml-naivebayes "^4.0.0"
+    ml-pad-array "^2.0.0"
+    ml-pca "^4.0.0"
+    ml-performance "^0.2.0"
+    ml-pls "^2.0.0"
+    ml-random "^0.5.0"
+    ml-random-forest "^2.0.0"
+    ml-regression "^5.0.0"
+    ml-savitzky-golay "^4.0.0"
+    ml-som "^0.0.6"
+    ml-sparse-matrix "^2.0.0"
+    ml-xsadd "^2.0.0"
+    num-sort "^2.0.0"
 
 module-not-found-error@^1.0.1:
   version "1.0.1"
@@ -10489,6 +11038,11 @@ nth-check@^1.0.2, nth-check@~1.0.1:
   integrity sha512-WeBOdju8SnzPN5vTUJYxYUxLeXpCaVP5i5e0LF8fg7WORF2Wd7wFX/pk0tYZk7s8T+J7VLy0Da6J1+wCT0AtHg==
   dependencies:
     boolbase "~1.0.0"
+
+num-sort@^2.0.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/num-sort/-/num-sort-2.1.0.tgz#1cbb37aed071329fdf41151258bc011898577a9b"
+  integrity sha512-1MQz1Ed8z2yckoBeSfkQHHO9K1yDRxxtotKSJ9yvcTUUxSvfvzEq5GwBrjjHEpMlq/k5gvXdmJ1SbYxWtpNoVg==
 
 num2fraction@^1.2.2:
   version "1.2.2"
@@ -11489,6 +12043,11 @@ ramda@0.21.0, ramda@^0.21.0:
   resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.21.0.tgz#a001abedb3ff61077d4ff1d577d44de77e8d0a35"
   integrity sha1-oAGr7bP/YQd9T/HVd9RN536NCjU=
 
+random-js@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/random-js/-/random-js-2.1.0.tgz#0c03238b0a4f701f7a4c7303036ade3083d8ee14"
+  integrity sha512-CRUyWmnzmZBA7RZSVGq0xMqmgCyPPxbiKNLFA5ud7KenojVX2s7Gv+V7eB52beKTPGxWRnVZ7D/tCIgYJJ8vNQ==
+
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5, randombytes@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/randombytes/-/randombytes-2.1.0.tgz#df6f84372f0270dc65cdf6291349ab7a473d4f2a"
@@ -12137,6 +12696,15 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
   dependencies:
     hash-base "^3.0.0"
     inherits "^2.0.1"
+
+rollup@^1.31.1:
+  version "1.32.1"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-1.32.1.tgz#4480e52d9d9e2ae4b46ba0d9ddeaf3163940f9c4"
+  integrity sha512-/2HA0Ec70TvQnXdzynFffkjA6XN+1e2pEv/uKS5Ulca40g2L7KuOE3riasHoNVHOsFD5KKZgDsMk1CP3Tw9s+A==
+  dependencies:
+    "@types/estree" "*"
+    "@types/node" "*"
+    acorn "^7.1.0"
 
 rsvp@^4.8.4:
   version "4.8.5"
